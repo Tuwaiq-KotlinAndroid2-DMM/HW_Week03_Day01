@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
-        android:layout_marginTop="118dp"
+        android:layout_marginTop="24dp"
         android:text="Name"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -98,12 +98,14 @@
             android:id="@+id/radioButtonFemale"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:tag="1"
             android:text="Female" />
 
         <RadioButton
             android:id="@+id/radioButtonMale"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:tag="0"
             android:text="Male" />
     </RadioGroup>
 

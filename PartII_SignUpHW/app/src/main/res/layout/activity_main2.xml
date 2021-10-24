@@ -7,7 +7,7 @@
     tools:context=".MainActivity2">
 
     <TextView
-        android:id="@+id/textViewNameR"
+        android:id="@+id/textViewNameText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
@@ -17,72 +17,72 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textViewNameValue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:layout_marginTop="8dp"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewNameR" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewNameText" />
 
     <TextView
-        android:id="@+id/textViewEmailR"
+        android:id="@+id/textViewEmailText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:layout_marginTop="16dp"
         android:text="Email"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewNameValue" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textViewEmailValue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:layout_marginTop="8dp"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewEmailR" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewEmailText" />
 
     <TextView
-        android:id="@+id/textViewPhoneR"
+        android:id="@+id/textViewPhoneText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:layout_marginTop="16dp"
         android:text="Phone"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewEmailValue" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/textViewPhoneValue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:layout_marginTop="8dp"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewPhoneR" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewPhoneText" />
 
     <TextView
-        android:id="@+id/textViewGenderR"
+        android:id="@+id/textViewGenderText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:layout_marginTop="16dp"
         android:text="Gender"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewPhoneValue" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/textViewGendervalue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:layout_marginTop="8dp"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewGenderR" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewGenderText" />
 </androidx.constraintlayout.widget.ConstraintLayout>
