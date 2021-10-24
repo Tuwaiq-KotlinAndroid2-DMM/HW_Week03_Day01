@@ -1,4 +1,4 @@
-# HW_Week03_Day01
+# HW_Week03_Day01_WorkingWithIntents
 The Home Work has to be delievered before 9AM ⚠️
 # What you'll build 📋
 ---
