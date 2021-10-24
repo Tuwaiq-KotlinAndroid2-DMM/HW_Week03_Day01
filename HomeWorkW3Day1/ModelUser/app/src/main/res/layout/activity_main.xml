@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Model.MainActivity">
+
+    <EditText
+        android:id="@+id/NameText"
+        android:layout_width="250dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="92dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EmailText" />
+
+    <EditText
+        android:id="@+id/EmailText"
+        android:layout_width="253dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="92dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/BtnGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="60dp"
+
+        android:layout_marginEnd="159dp"
+        android:text="Go"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditTextGender" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="246dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="73dp"
+        android:ems="10"
+        android:hint="Phone"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NameText" />
+
+    <EditText
+        android:id="@+id/EditTextGender"
+        android:layout_width="244dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="75dp"
+        android:ems="10"
+        android:hint="Gender"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
+
+    <TextView
+        android:id="@+id/numlabel"
+        android:layout_width="74dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="56dp"
+        android:text="966+"
+        android:textColor="#090909"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/editTextPhone"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NameText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

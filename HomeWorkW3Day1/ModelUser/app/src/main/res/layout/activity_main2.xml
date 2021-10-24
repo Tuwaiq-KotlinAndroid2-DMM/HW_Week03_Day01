@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Model.MainActivity2">
+
+    <TextView
+        android:id="@+id/EmailTextView"
+        android:layout_width="259dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="167dp"
+        android:layout_marginEnd="76dp"
+        android:hint="Email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/NameTextView"
+        android:layout_width="259dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="76dp"
+        android:hint="Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EmailTextView" />
+
+    <TextView
+        android:id="@+id/PhoneTextView"
+        android:layout_width="263dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="76dp"
+        android:hint="Phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NameTextView" />
+
+    <TextView
+        android:id="@+id/textViewGender"
+        android:layout_width="258dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="77dp"
+        android:text="Gender"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PhoneTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
